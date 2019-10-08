@@ -1,0 +1,117 @@
+ 
+body{
+  background-color:black;
+ justify-content: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.midcontainer{
+  display: flex;
+  flex-direction: row; 
+   align-items: flex-start; 
+}
+
+.logo{
+  margin-top:30px;
+  margin-left:60px;
+  max-width: 150px;
+  height: auto;
+  padding-right:40px;
+}
+.hometitle{
+  color:white;
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  align-self: flex-start;
+  z-index: 2;
+  position: relative;
+  bottom:-40px;
+  line-height: 0%;
+  padding-left: 20px;
+}
+.soccer1{
+object-fit: cover;
+object-position: 100% 100%;
+width:1300px;
+height:300px;
+opacity:0.7;
+align-self: center;
+z-index: 0;
+position: relative;
+bottom:-5px;
+}
+.buttondisplay{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: flex-end;
+  top:10px;
+  right:20px;
+  z-index: 1;
+  filter: drop-shadow(5px 5px 0px gray);
+}
+.homebutton{
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(41, 91, 255);
+  font-size: 20px;
+  padding-top:10px;
+  width:100px;
+  height:30px;
+  border-bottom:10px;
+  border-right-color:gray;
+  margin-right:20px;
+}
+
+.contactbutton{
+  color:white;
+  font-size: 20px;
+  text-decoration:none;
+  text-align: center;
+  background-color: rgb(41, 91, 255);
+  width:100px;
+  height:30px; 
+  padding-top:10px;
+  
+}
+
+.aboutbutton{
+  color:white;
+  font-size: 15px;
+  text-decoration:none;
+  text-align: center;
+  background-color:green;
+  width:100px;
+  height:30px; 
+  padding-top:10px;
+  margin-right:20px;
+}
+
+.about{
+  color:white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+ul{
+  font-size: 20px;
+  margin:30px;
+}
+.aboutnysl{
+ color:white;
+ background-color:gray;
+  font-size: 30px;
+  text-align: center;
+ width: 1300px;
+ font-family: 'Courier New', Courier, monospace;
+   font-style: oblique;
+   padding-bottom:10px;
+   padding-top:10px;
+}
